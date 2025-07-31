@@ -5,7 +5,8 @@ let plantType = "flower"; // TODO: Replace with prompt() to allow user interacti
 // Variable to hold gardening advice
 let advice = "";
 
-// Determine advice based on the season
+// Determine advice based on the season 
+//Season strings expected to be lowercase
 if (season === "summer") {
     advice += "Water your plants regularly and provide some shade.\n";
 } else if (season === "winter") {
